@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 2, 1);
+}
+.logox{
+    font-size: 2rem;
+    font: bold;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0.7rem 1rem;
+    padding: 0px 0px;
+    
+}
+
+.menu li:hover{
+    border-bottom: black 2px solid;
+}
+
+.profile-img:hover{
+ border: 0.5rem chartreuse solid;
+}
+.nav-bar{
+    background-color: chartreuse;
+}
+.menu {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-img{
+    height: 15rem;
+    width: 15rem;
+    margin: 5rem auto;
+    border-radius: 10rem;
+    margin-left: 40%;
+    align-items: center;
+    align-content: center;
+}
+.info{
+    
+}
+.post header{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+header:hover{
+    border-bottom: 2px solid white;
+    margin-bottom: 2rem;
+}
+
+.post{
+    color: aliceblue;
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+}
+
+.myinfo{
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width: 632px) {
+
+    *{
+      background-color: chartreuse;
+    }
+  }
